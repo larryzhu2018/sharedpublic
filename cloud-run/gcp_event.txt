@@ -1,0 +1,16 @@
+{
+httpRequest: {9}
+insertId: "67dc68b60001aa764925a6c1"
+logName: "projects/gcp-5319e002/logs/run.googleapis.com%2Frequests"
+receiveTimestamp: "2025-03-20T19:12:54.112691605Z"
+resource: {
+labels: {5}
+type: "cloud_run_revision"
+}
+severity: "WARNING"
+spanId: "3b033bc070dc0fe1"
+textPayload: "The request was not authorized to invoke this service. Read more at https://cloud.google.com/run/docs/securing/authenticating Additional troubleshooting documentation can be found at: https://cloud.google.com/run/docs/troubleshooting#401"
+timestamp: "2025-03-20T19:12:54.101499Z"
+trace: "projects/gcp-5319e002/traces/cc3a5f3c58899b23a570bc138ee2724c"
+traceSampled: true
+}

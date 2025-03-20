@@ -1,0 +1,26 @@
+{
+  "name": "larrytest",
+  "version": "1.0.0",
+  "description": "Lambda function for Cloud Run authentication",
+  "main": "index.js",
+  "dependencies": {
+    "@aws-sdk/client-sts": "^3.515.0",
+    "@smithy/protocol-http": "^3.0.11",
+    "@smithy/signature-v4": "^2.0.11",
+    "@smithy/url-parser": "^2.0.11",
+    "@aws-sdk/util-format-url": "^3.515.0",
+    "@aws-crypto/sha256-js": "^5.2.0",
+    "google-auth-library": "^9.0.0",
+    "node-fetch": "^2.6.1",
+    "axios": "^1.6.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
